@@ -1,30 +1,48 @@
 html,body{
-    width: 100%;
-    height: 100%;
+    width: 1280px;
+    height: 1060px;
     font-family: Tahoma;
-    background-image: url('/img/background.png');
+    background-image: url('../img/background.png');
 }
 
 .wrapper{
-    width: 90%;
-    height: 95%;
+    width: 1000px;
+    height: 990px;
     background-color: #fff;
     margin: auto;
     display: table;
 }
 
 .logo{
-    background-image: url('/img/logo.jpg');
-    float: left;
+   /* float: left;
     width: 283px;
     height: 164px;
     text-align: center;
-    margin: 10px 0px 0px 30px;
+    margin: 10px 0px 0px 30px;*/
+    float: left;
+    
+    position: relative; 
+    width: 283px; 
+    height: 164px;
 }
 
 .logo div{
-    margin-top: 90px;
+/*    margin-top: 90px;*/
     color: #71aec1;
+}
+
+.image{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 283px;
+}
+
+.text{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    width: 200px;
 }
 
 .contacts{
@@ -76,7 +94,7 @@ a{
 }
 
 .photo{
-    background-image: url('/img/photo.png');
+/*    background-image: url('../img/photo.png');*/
     width: 1000px;
     height: 236px;
     clear: both;
@@ -144,11 +162,16 @@ ul.menu > li:hover > ul.submenu {
     display: block;
 }
 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .left_menu{
     float: left;
     background-color: #edeef0;
-    width: 22%;
-    height: 52%;
+    width: 210px;
+    height: 560px;
     text-align: center;
 }
 
@@ -157,16 +180,24 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .right_menu{
-    float: right;
+    float: left;
     background-color: #edeef0;
-    width: 22%;
-    height: 52%;
+    width: 210px;
+    height: 560px;
     text-align: center;
-    
 }
 
 .right_menu div:first-child{
     font-weight: 600;
+}
+
+.content{
+    float: left;
+    width: 580px;
+    height: 560px;
+    
+/*    margin: 0 210px 0 210px;*/
+    
 }
 
 .footer{
